@@ -1,0 +1,20 @@
+body,html{
+    height:100%;
+}
+body {
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.centered{
+	color: white;
+	position: absolute;
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+table{
+	width: 100%;
+}
