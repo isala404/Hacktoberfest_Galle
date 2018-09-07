@@ -28,8 +28,13 @@ body {
 	color: #25ffbf;
 	font-weight: 500;
 }
-.partners{
-	position: absolute;
-	right: 40%;
-	bottom: 1%;
+@media screen and (max-width: 768px) {
+    #header{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #header{
+        font-size: 40px;
+    }
 }
