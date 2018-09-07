@@ -1,6 +1,3 @@
-body,html{
-    height:100%;
-}
 body {
   background: url('../images/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8,13 +5,26 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-.centered{
+#centered{
 	color: white;
-	position: absolute;
-	display: block;
-	margin: auto;
-	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0000007a;
 }
-table{
-	width: 100%;
+.btn-custom{
+	width: 250px;
+	height: 75px;
+	font-size: 25px;
+}
+
+@font-face {
+    font-family: "mountains";
+    src: url(../fonts/beyond_the_mountains.ttf);
+    src: url(../fonts/beyond_the_mountains.otf);
+    font-weight: 400;
+}
+#header{
+	font-family: mountains;
+	color: #25ffbf;
+	font-weight: 500;
 }
