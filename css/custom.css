@@ -28,3 +28,8 @@ body {
 	color: #25ffbf;
 	font-weight: 500;
 }
+.partners{
+	position: absolute;
+	right: 40%;
+	bottom: 1%;
+}
